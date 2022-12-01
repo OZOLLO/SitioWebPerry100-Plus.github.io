@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.logo-perry{
+    width: 300px;
+    height: 135px;  
+}
+
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+	min-height: 100%;  
+	text-align: center;
+	background-color: #7b5442;
+}
+
+.header{
+	background-color: #000000;
+}
+.menu{
+	height: 75px;
+	box-shadow: 0px 1px 33px -3px rgba(0,0,0,0.79) inset;
+	-webkit-box-shadow: 0px 1px 33px -3px rgba(0,0,0,0.79) inset;
+	-moz-box-shadow: 0px 1px 33px -3px rgba(0,0,0,0.79) inset;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.menu li a{
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+}
+.menu li a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+.background{
+	width: 95%;
+	height: auto;
+}
+.quienes-somos{
+	background-color:#6b493a;
+	height: 100px;
+}
+.img-quienes-somos{
+	background-color: #6b493a;
+}
+.img-quienes-somos img{
+	width: 100%;
+	height: auto;
+}
+
+.quienes-somos p{
+	margin-top: 10px;
+}
+
+.quienes-somos h1{
+	padding-top: 12px;
+}
+
+#h1-contacto{
+	margin-top: 15px;
+	text-decoration: underline;
+}
+#boton-enviar{
+	background-color: #6b493a;
+	height: 30px;
+	width: 60px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	cursor: pointer;
+}
+
+.input1{
+	background-color: #6b493a;
+	height: 30px;
+	width: 300px;
+	margin-left: 20px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+.input2{
+	background-color: #6b493a;
+	height: 30px;
+	width: 300px;
+	margin-left: 20px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+.input3{
+	background-color: #6b493a;
+	height: 30px;
+	width: 300px;
+	margin-left: 7px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+.input4{
+	background-color: #6b493a;
+	height: 30px;
+	width: 300px;
+	margin-left: 15px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.navbar{
+	background-color: #6b493a;
+}
+
+.main{
+	background-color: #7b5442;
+}
+
+.formulario{
+	text-align: center;
+	margin-top: 10px;			
+	line-height: 55px;
+}
+
+.footer{
+	background-color: #000000;
+	color: #6b493a;
+	font-weight: bold;
+	padding-top: 90px;
+	height: 250px;
+}
+
+.icons{	
+	height: auto;
+	width: auto;
+	background-color: black;
+}
+.icons img{
+	margin-top: 25px;
+	height: 45px;
+	width: auto;
+}
+.seccion-contacto{
+	background-color: #7b5442;
+	height: 330px;
+}
+.seccion-servicios{
+	background-color: #6b493a;
+}
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding-top: 10px;
+	color: #000000;
+	text-decoration: underline;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #7b5442;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: pointer;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 290px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #000000;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #6b493a;
+	color: rgb(0, 0, 0);
+}
+.slider {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+body::-webkit-scrollbar{
+	width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+	background:  #5e3f32;
+	border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+	background: black;
+}
+#h1-marcas{
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+	.quienes-somos{
+		height: 100px;
+		font-size: 12px;
+		margin-bottom: 11px;
+	}
+	.quienes-somos p{
+		background-color: #6b493a;
+	}	
+	.footer{
+		background-color: #000000;
+		color: #6b493a;
+		font-weight: bold;
+		font-size: 12px;
+		height: 250px;
+		padding: 50px;
+	}
+	.menu li a{
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+	font-size: small;
+}
+.menu li{
+	padding: 5px;
+	display: block;
+	height: 40px;
+	width: auto;
+	margin: auto;
+	border: 2px solid black;
+	box-shadow: 0px 1px 33px -3px rgba(0,0,0,0.429) inset;
+	-webkit-box-shadow: 0px 1px 33px -3px rgba(0,0,0,0.429) inset;
+	-moz-box-shadow: 0px 1px 33px -3px rgba(0, 0, 0, 0.429) inset;
+}
+
+.navbar{
+	width: auto;
+	height: auto;
+}
+
+.seccion-contacto{
+	height: auto;
+	width: auto;	
+}
+
+.menu{
+	height: auto;
+}
+
+
+}
+
